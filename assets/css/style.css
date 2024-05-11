@@ -22,7 +22,7 @@ body{
 /* Header */
 header{
     background-color: #ffffff;
-    padding: 0 2rem;
+    padding: 0 .5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -59,11 +59,31 @@ main{
     background-color: aquamarine;
     /* Make main element take any surplus space to push Footer down */
     flex: 1 0 auto;
-    margin-top: 97px;
+    margin-top: 95px;
 }
 
 
 /* Footer */
 footer{
     background-color: azure;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav{
+       position: relative;
+       display: block;
+       width: fit-content;
+       padding-right: 1rem;
+    }
+    #menu{
+        display: flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+    }
+    main{
+        margin-top: 47px;
+    }
 }
