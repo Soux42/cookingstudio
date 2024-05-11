@@ -27,6 +27,9 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a{
@@ -42,32 +45,23 @@ h1 {
 
 }
 #menu{
-    font-size: large;
+    font-size: medium;
     letter-spacing: 3px;
     list-style-type: none;
 }
-#menu > li{
-    margin-bottom: 1em;
-}
+
 .active{
     border-bottom: 1px solid black;
 }
-/* Navbar styles with dropdown toggle */
-nav{
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 3px 3px #3a3a3a;
-    display: none;
-}
+
 /* Main content */
 main{
     background-color: aquamarine;
     /* Make main element take any surplus space to push Footer down */
     flex: 1 0 auto;
+    margin-top: 97px;
 }
+
 
 /* Footer */
 footer{
