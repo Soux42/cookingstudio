@@ -23,6 +23,9 @@ body{
 header{
     background-color: antiquewhite;
 }
+h1 {
+font-family: 'Oswald', sans-serif;
+}
 
 /* Main */
 main{
