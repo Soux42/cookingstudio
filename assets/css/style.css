@@ -17,7 +17,13 @@ body{
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
 
+}
 
 /* Header */
 header{
@@ -37,13 +43,7 @@ header a{
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
 
-}
 #menu{
     font-size: medium;
     letter-spacing: 3px;
@@ -66,9 +66,14 @@ main{
     height: 700px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center/cover;
+    position: relative;
 }
-
-
+#cover-text > h2{
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    font-size: 200%;  
+}
 /* Footer */
 footer{
     background-color: azure;
@@ -103,6 +108,11 @@ footer{
     }
     main{
         margin-top: 47px;
+    }
+    /* Hero */
+    #cover-text > h2{
+        width: 500px;
+        left: 30px;
     }
 }
 /* Larger devices (Laptops and Desktops, 992px and up) */
