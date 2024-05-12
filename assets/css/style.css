@@ -56,10 +56,16 @@ h1 {
 
 /* Main content */
 main{
-    background-color: aquamarine;
+   
     /* Make main element take any surplus space to push Footer down */
     flex: 1 0 auto;
     margin-top: 95px;
+}
+/* Hero section */
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
 }
 
 
