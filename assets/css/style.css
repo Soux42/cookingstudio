@@ -22,13 +22,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
+    padding: 0 1rem; 
 
 }
 
 /* Header */
 header{
     background-color: #ffffff;
-    padding: 0 .5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -74,6 +74,17 @@ main{
     bottom: 30px;
     font-size: 200%;  
 }
+/* About section */
+#about-us > h3{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    text-transform: initial;
+    padding: 0 1rem 1rem;
+    
+}
+
+
 /* Footer */
 footer{
     background-color: azure;
@@ -112,7 +123,6 @@ footer{
     /* Hero */
     #cover-text > h2{
         width: 500px;
-        left: 30px;
     }
 }
 /* Larger devices (Laptops and Desktops, 992px and up) */
