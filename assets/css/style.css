@@ -48,6 +48,7 @@ header a{
     font-size: medium;
     letter-spacing: 3px;
     list-style-type: none;
+    padding: 1rem;
 }
 
 .active{
@@ -82,6 +83,15 @@ main{
     text-transform: initial;
     padding: 0 1rem 1rem;
     
+}
+/* Sign up section */
+#signup-form{
+    padding: 2rem;
+}
+#signup-image{
+    background: url(../images/signup-image.webp) no-repeat bottom center/cover;
+    width: 100vw;
+    height: 150vw; 
 }
 
 
@@ -124,6 +134,12 @@ footer{
     #cover-text > h2{
         width: 500px;
     }
+    /* Sign up section */
+    #signup-image{
+        max-width: 1000px;
+        max-height: 600px;
+    }    
+    
 }
 /* Larger devices (Laptops and Desktops, 992px and up) */
 @media screen and (min-width: 992px) {
