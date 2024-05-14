@@ -76,14 +76,24 @@ main{
     font-size: 200%;  
 }
 /* About section */
-#about-us > h3{
-    position: relative;
+.aboutus{
+    background-color:black;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
-    font-size: 150%;
-    text-transform: initial;
-    padding: 0 1rem 1rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: large;  
+}
+table{
+   border-collapse: collapse;
+    width: 100%;
+
+}
+th, td { 
+    padding-bottom: 10px;
     
 }
+
 /* Sign up section */
 #signup-form{
     padding: 2rem;
