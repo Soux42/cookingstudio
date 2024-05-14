@@ -93,6 +93,15 @@ main{
     width: 100vw;
     height: 150vw; 
 }
+ /* contact */
+.contact{
+    background-color:rgb(247, 236, 210);
+  color: #3a3a3a;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 80px;
+  letter-spacing: 3px;
+}
 
 
 /* Footer */
@@ -138,7 +147,12 @@ footer{
     #signup-image{
         max-width: 1000px;
         max-height: 600px;
-    }    
+    } 
+    /* contact */  
+    .contact{
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
     
 }
 /* Larger devices (Laptops and Desktops, 992px and up) */
