@@ -1,22 +1,29 @@
 # Cooking Studio
 The cooking studio website is a landing page for people who are interested in learning or developing their cooking skills.  The cooking studio offers cooking classes with an instructor by the side.
 On this website, users can be able to find all the Information about the cooking studio, timing, pricing, contact information, and a sign-up form.
-![Mockup](/workspace/cookingstudio/doc/mockup-image.png)
+![Mockup](docs/Mockup-image.jpg)
 ## Features
 * Navigation
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Contact and Sign Up page and is identical in each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    ![](docs/nav-image.jpg)
 * The Home page image
     * The Home page includes a photograph with text explaining the purpose of the site.
+    ![](docs/home-image.jpg)
 * The About us Section
     * The About section gives the user important information they need to know about the cooking studio. 
     * This section contains a table with timing, price, days and language of instruction of the cooking classes.
+    ![](docs/aboutus-section.jpg)
 * The Footer
     * The footer section includes links to the relevant social media sites, which will open to a new tab to allow easy navigation for the user.
     * The footer is valuable to the user as it encourages them to keep connected via social media.
+    ![](docs/footer-image.jpg)
 * The Contact Section
     * The Contact section helps the users to get in contact with the cooking studio.
     * This section provides telephone number, email address and street address.
+    ![](docs/contact-page.jpg)
+* The Sign Up page
+   ![](docs/signup-page.jpg)
 
 ## Testing
    * I confirmed that this project is responsive and functions on all standard screen sizes using the devtools device toolbar
