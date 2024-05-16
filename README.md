@@ -27,13 +27,17 @@ On this website, users can be able to find all the Information about the cooking
 
 ## Testing
    * I confirmed that this project is responsive and functions on all standard screen sizes using the devtools device toolbar
+   ![](docs/testing-image.jpg)
+   *Lighthouse
+   ![](docs/lighthouse-image.jpg)
 ## Validator Testing
    * HTML
-      * No errors were returned when passing through the official W3C validator
+      * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
    * CSS
-      * No errors were found when passing through the official (Jigsaw) validator
+      * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
    * Accessibility
       * I confirm that the colors and fonts chosen are easy to read and accessible by running it through the lighthouse in devtools.
+   
 ## Unfixed Bugs
    No unfixed bugs
 ## Deployment
