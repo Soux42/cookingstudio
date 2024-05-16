@@ -27,8 +27,16 @@ On this website, users can be able to find all the Information about the cooking
 
 ## Testing
    * I confirmed that this project is responsive and functions on all standard screen sizes using the devtools device toolbar
-   ![](docs/testing-image.jpg)
-   *Lighthouse
+
+| Test                                       | Steps                                                                                                                                 | Expected                                                                                              | Actual |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------ |
+| Social media links work as expected        | Click on the links on social media in the Footer                                                                                      | Opens correct site in a new tab.                                                                      | Passed |
+| Menu works on all devices                  | Open on the device and click on links                                                                                                 | Menu opens and all links work                                                                         | Passed |
+| Missing required field in the sign up form | Navigate to signup page and give input in the signup form only for 'First name' and click submit                                      | The form does not submit and a box will appear, tells the user that the field is required.            | Passed |
+| Give correct inputs in the signup form     | Navigate to signup page give the correct inputs in the signup form and click submit.User should be redirected to a confirmation page. | Form submits with no warnings and user is redirected to confirmation page.                            | Passed |
+| Signup form without Email                  | Navigate to signup page give no inputs for email in the signup form and click submit.                                                 | The form does not submit and an warning is displayed to tell the user that the field is required.     | Passed |
+| Incorrect email format in Signup form      | Navigate to signup page give incorrect email format in the signup form and click submit.                                              | The form does not submit and a warning is displayed to tell the user that a valid email is required . | Passed |   
+## Lighthouse
    ![](docs/lighthouse-image.jpg)
 ## Validator Testing
    * HTML
