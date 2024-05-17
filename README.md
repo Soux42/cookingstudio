@@ -41,8 +41,10 @@ On this website, users can be able to find all the Information about the cooking
 ## Validator Testing
    * HTML
       * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+      ![HTML Validator image](docs/html-validator.jpg)
    * CSS
-      * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+      * No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+      ![CSS Validator image](docs/css-validator.jpg)
    * Accessibility
       * I confirm that the colors and fonts chosen are easy to read and accessible by running it through the lighthouse in devtools.
    * Lighthouse
