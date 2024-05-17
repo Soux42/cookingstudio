@@ -3,6 +3,8 @@ The cooking studio website is a landing page for people who are interested in le
 On this website, users can be able to find all the Information about the cooking studio, timing, pricing, contact information, and a sign-up form.
 ![Mockup image](docs/Mockup-image.jpg)
 ## Features
+* Favicon
+    * Favicon is included [Favicon](https://favicon.io/emoji-favicons/cooking)
 * Navigation
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Contact and Sign Up page and is identical in each page to allow for easy navigation.
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
@@ -57,7 +59,6 @@ The live link can be found here - [Cooking studio](https://soux42.github.io/cook
 * Content
    * As a reference Love Running Project of [Code Institute](https://learn.codeinstitute.net/) has been used and also codes for header and sozial media links has been taken.
    * Mentor's guidance during the development of the project.
-   * The Favicon in the Header is taken from [Favicon](https://favicon.io/emoji-favicons/cooking)
    * The icons in the Footer are taken from [Font Awesome](https://fontawesome.com/)
 * Media
    * The photos used on the home and sign up page are from [Pixabay](https://pixabay.com)
