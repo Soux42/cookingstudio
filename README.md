@@ -59,7 +59,7 @@ On this website, users can be able to find all the Information about the cooking
 The live link can be found here - [Cooking studio](https://soux42.github.io/cookingstudio/)
 ## Credits
 * Content
-   * As a reference Love Running Project of [Code Institute](https://learn.codeinstitute.net/) has been used and also codes for header and sozial media links has been taken.
+   * As a reference [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) of [Code Institute](https://learn.codeinstitute.net/) has been used and also codes for header and sozial media links has been taken.
    * Mentor's guidance during the development of the project.
    * The icons in the Footer are taken from [Font Awesome](https://fontawesome.com/)
 * Media
